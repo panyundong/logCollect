@@ -140,6 +140,7 @@ $ tar zxvf logCollect-linux-amd64-${logCollectVersion}.tar.gz
 
 ```bash
 1. $ cd logCollect-linux-amd64-${logCollectVersion}/logManager
+2. 创建数据库，并将`data/logmanager.sql`文件导入到数据库中
 2. 配置logManager配置文件，文件路径`conf/app.conf`
 3. 启动logManager
    $ ./logmanager &> /dev/null &
@@ -164,7 +165,7 @@ $ tar zxvf logCollect-linux-amd64-${logCollectVersion}.tar.gz
 ```
 
 ## 编译logCollect Go程序
-> 以下操作均在linux amd64位系统
+> 以下操作均在linux系统演示
 
 ### 1.安装go编译器
 参考网上文章进行安装
