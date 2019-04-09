@@ -1,4 +1,13 @@
+# lib directory and file
+github.com/
+go.etcd.io/
+gopkg.in/
+test/
+
 # Binaries for programs and plugins
+logagent
+logmanager
+logtransfer
 *.exe
 *.exe~
 *.dll
